@@ -1,5 +1,7 @@
 
 
+.PHONY: run
+
 compile: 
 	javac src/*.java
 	mv src/*.class bin/
@@ -7,8 +9,12 @@ compile:
 
 default: compile
 
+run: 
+	java bin/TerrainClassification
+
+
 clean: 
 	rm bin/*
-	rm docs/*
+	rm -rf docs/*
 
 	
