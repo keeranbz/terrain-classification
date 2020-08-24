@@ -1,0 +1,5 @@
+
+
+JCC = javac
+
+default: 
