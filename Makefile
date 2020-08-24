@@ -1,5 +1,14 @@
 
 
-JCC = javac
+compile: 
+	javac src/*.java
+	mv src/*.class bin/
+	(cd docs/;javadoc ../src/*)
 
-default: 
+default: compile
+
+clean: 
+	rm bin/*
+	rm docs/*
+
+	
