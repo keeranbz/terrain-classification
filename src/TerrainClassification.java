@@ -256,16 +256,11 @@ public class TerrainClassification {
                     break;
                 case 1: 
                     findBasinSequential();
-                    //findBasinConcurrent();
-                     //printOutput("data/"+"output_"+filepath, true);
-                    //printOutput(true);
-                    printCellGrid(177, 273);
+                    printOutput("data/"+"output_"+filepath, true);
                     break;
                 case 2: 
                     findPeakSequential();
-                    // findBasinConcurrent();
-                    //printOutput("data/"+"output_"+filepath, false);
-                    printOutput(false);
+                    printOutput("data/"+"output_"+filepath, false);
                     break;
 
             }
