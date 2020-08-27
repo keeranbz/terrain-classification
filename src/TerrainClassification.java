@@ -256,11 +256,11 @@ public class TerrainClassification {
                     break;
                 case 1: 
                     findBasinSequential();
-                    printOutput("data/"+"output_"+filepath, true);
+                    printOutput("data/"+"basin_output_"+filepath, true);
                     break;
                 case 2: 
                     findPeakSequential();
-                    printOutput("data/"+"output_"+filepath, false);
+                    printOutput("data/"+"peak_output_"+filepath, false);
                     break;
 
             }

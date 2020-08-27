@@ -1,3 +1,9 @@
+commit 59b23f293accdc406a63357ab9db278a69e36382
+Author: Keeran Bezuidenhout <keeranbezuidenhout@gmail.com>
+Date:   Thu Aug 27 22:25:26 2020 +0200
+
+    Cleaning code.
+
 commit b0263c7bae07c15b3e1ae381511f49771b900308
 Author: Keeran Bezuidenhout <keeranbezuidenhout@gmail.com>
 Date:   Thu Aug 27 21:58:20 2020 +0200
